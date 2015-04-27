@@ -1,0 +1,3 @@
+<div>
+    <label><input type="checkbox" checked="{this.props.done}" onChange={this.props.onToggle} />{this.props.text}</label>
+</div>

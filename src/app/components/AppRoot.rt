@@ -1,0 +1,5 @@
+<rt-require dependency="./List" as="List"/>
+<div>
+    <span>Hello World</span>
+    <List rt-props="{items:this.state.items}"/>
+</div>
