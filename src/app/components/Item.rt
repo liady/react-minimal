@@ -1,3 +1,4 @@
-<div>
-    <label><input type="checkbox" checked="{this.props.done}" onChange={this.props.onToggle} />{this.props.text}</label>
+<div class="checkbox {this.props.success ? 'checkbox-success' : 'checkbox-primary'}">
+    <input id="c{this.props.id}" type="checkbox" checked="{this.props.done}" onChange={this.props.onToggle} />
+    <label htmlFor="c{this.props.id}" style="text-decoration:{this.props.done ? 'line-through' : 'none'}">{this.props.text}</label>
 </div>

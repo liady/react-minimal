@@ -1,6 +1,7 @@
 <rt-require dependency="./Item" as="Item"/>
-<div>
-    <div rt-repeat="item in this.getItems()" key={item.key}>
-        <Item text={item.text} done={item.done} onToggle="()=>this.handleToggle(item.text)"/>
+<div style="margin-left:10px;">
+    <div rt-repeat="item in this.state.items" key={itemIndex}>
+        <Item id={itemIndex} text={item.text} done={item.done} success={item.success}
+                onToggle="()=>this.handleToggle(itemIndex)"/>
     </div>
 </div>
