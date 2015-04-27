@@ -4,9 +4,9 @@
   "description": "Minimal primer for react",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --config config/webpack.js",
-    "webpack-watch": "webpack --config config/webpack.js --watch --colors",
-    "webpack-dev-server": "webpack-dev-server --content-base public/ --config config/webpack.js --watch --port 8181 -d"
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch --colors",
+    "webpack-dev-server": "webpack-dev-server --content-base public/ --watch --port 8181 -d"
   },
   "author": "Liad Yosef",
   "license": "MIT",
