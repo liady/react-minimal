@@ -1,2 +1,2 @@
 # react-minimal
-Minimal boilerplate for react/webpack
+Minimal boilerplate for react/webpack/react-templates
