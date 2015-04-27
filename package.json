@@ -1,16 +1,15 @@
 {
-  "name": "react-primer",
+  "name": "react-minimal",
   "version": "1.0.0",
-  "description": "Primer for react",
-  "main": "index.js",
+  "description": "Minimal primer for react",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --config config/webpack.js",
     "webpack-watch": "webpack --config config/webpack.js --watch --colors",
-    "webpack-dev-server": "webpack-dev-server --content-base public/dist/ --config config/webpack.js --watch --port 8181 -d"
+    "webpack-dev-server": "webpack-dev-server --content-base public/ --config config/webpack.js --watch --port 8181 -d"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Liad Yosef",
+  "license": "MIT",
   "devDependencies": {
     "babel": "^5.1.13",
     "babel-core": "^5.1.13",
