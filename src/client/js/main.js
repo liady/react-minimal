@@ -1,8 +1,8 @@
-import App from '../app';
-import {} from 'bootstrap-sass!./assets/css/bootstrap-sass.config.js';
+import App from '../../app';
+import {} from 'bootstrap-webpack!../css/bootstrap.config.jsconf';
 import {} from 'font-awesome-webpack';
-import {} from './assets/css/checkboxes.css';
-import {} from './assets/css/style.css';
+import {} from '../css/checkboxes.css';
+import {} from '../css/style.css';
 
 var attachElement = document.getElementById('app');
 var app = new App({initialState:{
